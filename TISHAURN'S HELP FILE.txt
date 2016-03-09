@@ -1,0 +1,205 @@
+---------------------------------------------                                                               Tishaurn's help file 
+DEV CONTAINERS 
+---------------------------------------------
+pwd: to see your location in your dev container.
+
+ll to list all the contents of the folder.
+
+crtl x:to exit a open file in the command line.
+
+nano: to open a file on the command line.
+
+touch: to create a file.
+
+mv: to move a file to another location example: mv  privatekey.key  www.insidelacrossemagazine.com.key
+
+chmod 777: to give a file full permission to read and write.
+
+cp: to copy the contents of a folder example cp 123.php  156.php
+
+su: switch user.
+
+php -l: to syntax check your selected file.
+
+mk dir: to create a new directory.
+
+----------------------------------------------
+GIT HUB
+----------------------------------------------
+git status: to check the status of the repository ono youyr dev container.
+
+git clone: to copy the repository to your personal one.
+
+git commit -a -m"": to comment your change.
+
+git push origin master: to push a change to the git hub repository.
+
+git add *: adds all new files to the dev container repository.  
+
+
+-----------------------------------------------
+PHP
+-----------------------------------------------
+
+
+
+
+
+
+
+-----------------------------------------------
+SVN
+-----------------------------------------------
+svn st: to check the status of your repositry.
+
+svn diff: shows all the diffrences of your repository.
+
+svn ci -m"": commits your changes with your changes(equvilent to git push origin master)
+
+svn up: updates your svn repositories to the most current version.
+
+-----------------------------------------------
+CONCRETE 5
+-----------------------------------------------
+1.first switch from the root dev container user to the concrete 5 user with the su code.
+
+2.then use c5_create then the site code, site name and the site host.
+
+3. then go to youyr browser to install the packages you go to extend concerete 5 the important packages are..
+
+jellyfish content
+jellyfish creative 
+jellyfish funnel pages 
+jellyfish image cta 
+jellyfish text cta
+jellyfish moblie theme switcher
+
+c5_archive: to delete a c5 data base.  
+------------------------------------------------
+MYSQL
+------------------------------------------------
+mysql -u deploy: to log into the deploy user for mysql.
+
+show databases;:to show all databases on you rmysql server.
+
+use____;:to switch databases.
+
+showtalbles;: to show the tables on the databases.
+
+create database _______;: to create a database on mysql 
+
+create table _______ (id int,----------); : to create a table on mysql.
+
+insert into ___ (id,__,__,__) ("","","","");
+
+SELECT * FROM ___;: shows all of the data form the table. 
+------------------------------------------------
+CSS
+------------------------------------------------
+css styling mehtods.
+ in line styling:
+<div style="margin 2px;color:red;">
+</div>
+
+using a style tag
+
+<body>
+<style>
+-----
+-----
+</style>
+</body>
+
+using a link
+
+<head>
+<link href ="/mycss/style/css">
+</head>
+------------------------------------------------
+PDO
+------------------------------------------------
+
+
+
+
+
+
+
+
+------------------------------------------------
+SSL
+------------------------------------------------
+		RENEWING AN SSL CERTIFCATE.
+
+1.login to global sign 
+
+2.check the details after you press renew
+
+3. make sure the name and info is barrys.
+
+4.check the csr.
+
+5.to approve and make sure the certificate is working choose the approve by url method.
+
+6. input the cvv for the card (886)
+
+7. input the password for the card (jellyhouse10)
+ 
+8.check the final details and get the meta tag and go to the build server page.
+
+9. get the password for the sie by going into key pass.
+
+10. login to the site and go to edit, properties,custom attributes,header extraa content and remove the old global sgns meta tag and paste the new one.
+
+11. you should get a conformation email with the certificate then go to campaign sites folder S:onlinemarketing\development\domains\ssl
+and change the ssl certificate.     
+--------------------------------------------------
+		PURCHASING A NEW SSL CERTIFICATE 
+
+1.make sure the validity period is 1 year ( the price should be 57.60 )
+
+2.choose barry wprth and autofill 
+
+3. generate the csr code with our info 
+
+4.when you have entered all the info open the csr file and paste it into the box on global sign (the required info should be in the document).
+
+5.make sure you choose http and the correct domain name.
+
+------------------------------------------------
+FULFILMENT
+------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------
+SEARCHING FOR THINGS
+------------------------------------------------
+ack ____: shows the term that you serched for highlighted.
+
+grep -ir ____: searches all the folders for a case insenstive version of the term.
+
+grep -r _____:searches all the folders for a case sensitve verion of the term. 
+
+------------------------------------------------
+PASSWORDS AND OTHER INFORMATION
+------------------------------------------------
+KEY PASS:ma1t3dm11k
+
+TEST DETAILS: 
+first name : testjf
+last name : anything
+DIRECT DEBIT TEST:
+sort code:3--62-96
+account number:300060230
+CREDIT CARD TEST:
+card type: visa
+card num: 4111111111111111
+
+PASSWORD:
+serwin1212
+jellyfish 
+-------------------------------------------------

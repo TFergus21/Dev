@@ -23,11 +23,11 @@ catch(PDOException $e)
 
 
      //this print what is on the table info.
-	  //$query = $handler->query('SELECT * FROM register');
-      //while ( $r=$query->fetch(PDO::FETCH_NUM )) 
-        //  {
-        //	echo( print_r ( $r ,1 ) );
-        //  }
+	  $query = $handler->query('SELECT * FROM register');
+      while ( $r=$query->fetch(PDO::FETCH_NUM )) 
+        {
+        	echo( print_r ( $r ,1 ) );
+        }
 
        //inserts valuses into the trable 
      //$ins = "INSERT INTO register ( firstname, lastname , email)
