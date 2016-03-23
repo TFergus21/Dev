@@ -199,7 +199,7 @@ CREDIT CARD TEST:
 card type: visa
 card num: 4111111111111111
 
-PASSWORD:
+PASSWORDS:
 serwin1212
 jellyfish 
 -------------------------------------------------
