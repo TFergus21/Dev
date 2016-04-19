@@ -1,6 +1,7 @@
 <?php
 
-$drinks = new drinks;
+$drinks = new drinks('Alq');
+
 
 /**
 * this class should return the users name and drink list.
@@ -24,10 +25,10 @@ class drinks
     * The argument (the users name) should be passed through the consturctor 
     *@param string $name 
     */
-	public function __construct( $_name ='')
+	public function __construct( $name )
 	{
 		//assign name to class property
-		 $this->_name = 'Ali';
+		 $this->_name = $name;
 
 	
 		//check name is valid
@@ -45,7 +46,6 @@ class drinks
 		{
 			echo  $this->_name .' your name is not in our database';
 		}	
-
 		
 	}
 
